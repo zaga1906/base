@@ -14,6 +14,10 @@ repositories {
 
 dependencies {
 
+	// https://mvnrepository.com/artifact/org.projectlombok/lombok
+	// Dependencia para no escribir codigo repetitivo (Setter's, Getter's, Builder's, Contructor's y demas)
+	compileOnly 'org.projectlombok:lombok:1.18.22'
+
 	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa
 	// Dependencia para trabajar con Spring Data JPA
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
