@@ -26,6 +26,11 @@ dependencies {
 	// Driver de conexion a postgresql
 	runtimeOnly 'org.postgresql:postgresql'
 
+	// https://mapstruct.org/documentation/installation/
+	// Dependencia para trabajar con mapStruct (Desacoplar de la base de datos)
+	implementation 'org.mapstruct:mapstruct:1.4.2.Final'
+	annotationProcessor 'org.mapstruct:mapstruct-processor:1.4.2.Final'
+
 	// Dependencia que me permite trabajar con la capa web (Servicios Rest)
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
