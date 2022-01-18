@@ -35,8 +35,14 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 
 	// https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui
+	// https://springdoc.org/#demos
 	// Dependencia para crear la documentacion de nustras API'S
 	implementation 'org.springdoc:springdoc-openapi-ui:1.6.4'
+
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security
+	// Dependencia para administrar la seguridad de nuestra aplicacion
+	implementation 'org.springframework.boot:spring-boot-starter-security:2.6.2'
+
 
 	// TENER EN CUENTA QUE SWAGGER CON ESTAS DEPENDENCIAS SOLO FUNCIONA HASTA LA VERSION 2.5.6 de springboot
 	// https://mvnrepository.com/artifact/io.springfox/springfox-swagger2
@@ -47,6 +53,10 @@ dependencies {
 	// https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui
 	// Dependencia que nos ayuda a crear una interfaz grafica web de nuestras API'S
 	// implementation 'io.springfox:springfox-swagger-ui:2.9.2'
+
+	// https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt
+	// Dependencia para trabajar con Json-Web-Tokens
+	implementation 'io.jsonwebtoken:jjwt:0.9.1'
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
